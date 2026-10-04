@@ -1503,7 +1503,7 @@
             const form = new FormData(event.currentTarget);
             const subject = encodeURIComponent(`Portfolio inquiry from ${form.get("name")}`);
             const body = encodeURIComponent(`${form.get("message")}\n\nReply to: ${form.get("email")}`);
-            window.location.href = `mailto:kartikey@example.com?subject=${subject}&body=${body}`;
+            window.location.href = `mailto:kartikey.b.01@gmail.com?subject=${subject}&body=${body}`;
         });
 
         const heroCard = document.getElementById("heroCard");
@@ -1520,7 +1520,7 @@
 
         const radar = document.getElementById("skillRadar");
         const radarCtx = radar.getContext("2d");
-        const skillLabels = ["JS", "CSS", "Python", "Java", "SQL", "Git"];
+        const skillLabels = ["Java", "SQL", "Python", "JS", "C++", "Power Apps"];
         const skillValues = [88, 84, 78, 72, 70, 82];
 
         function drawRadar() {
